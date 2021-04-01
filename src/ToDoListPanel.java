@@ -32,4 +32,8 @@ public class ToDoListPanel extends JPanel {
     }
   }
 
+  public Task getWork() {
+    return list.getWork();
+  }
+
 }
